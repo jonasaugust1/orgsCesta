@@ -19,7 +19,11 @@ export default function Details({nome, produtor, descricao, preco}) {
 
       <Botao
         text="Comprar"
-        onPress={() => navigation.navigate('HomeScreen', {compra: {nome}})}
+        onPress={() =>
+          navigation.navigate('HomeScreen', {
+            compra: {nome, timestamp: +new Date()},
+          })
+        }
       />
     </>
   );

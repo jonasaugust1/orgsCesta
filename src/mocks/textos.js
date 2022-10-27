@@ -8,6 +8,8 @@ const topo = {
   topoCesta: 'Detalhe da cesta',
   botaoComprar: 'Comprar',
   tituloItens: 'Itens da cesta',
+  mensagemCompra:
+    'Agradecemos pela sua compra $NOME, seu pedido chegará em breve',
 };
 
 export default topo;
